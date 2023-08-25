@@ -1,0 +1,500 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---- Header ----- */
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    position: relative;
+    z-index: 0;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 90px;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.headerLogo {
+    width: 30%;
+    display: flex;
+    margin-left: 100px;
+}
+
+header nav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 10px;
+    color: hsl(0, 1%, 39%);
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+}
+
+.menu a:hover {
+    color: rgb(92, 91, 91);
+    border-bottom: 2px solid rgb(92, 91, 91);
+}
+
+.headerContact {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#requestInvite {
+    border: solid 0px;
+    border-radius: 250px;
+    margin: 20px 0;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+/* -- Main ----- */
+
+
+/* ----------- Section Main ----- */
+
+.section-main {
+    background-color:white;
+    display: flex;
+    height: 550px;
+}
+
+.mainLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.mainLeftContainer {
+    width: 90%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.mainLeft p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: hsl(0, 1%, 39%);
+
+}
+
+.mainRight {
+    width: 60%;
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    overflow: visible; /* Allow overflow */
+}
+
+.mainRight img {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 600px;
+}
+
+
+/* ----------- Section Benefits ----- */
+
+.section-benefits {
+    height: 600px;
+    background-color: rgba(233, 233, 233, 0.966);
+    padding: 50px 100px;
+}
+
+.benefitTitle {
+    width: 60%;
+    padding-top: 50px;
+
+}
+
+.benefitTitle h2 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.benefitTitle p {
+    font: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+    color: hsl(0, 1%, 39%);
+
+}
+
+.benefitContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 0;
+    gap: 25px;
+}
+
+.benefit {
+    padding: 20px 0;
+}
+
+.benefitIcon img {
+    background-repeat: no-repeat;
+}
+
+.benefit h3 {
+    padding: 20px 0;
+}
+
+.benefit p {
+    color: hsl(0, 1%, 39%);
+}
+
+/* ----------- Section Latest Articles ----- */
+
+
+.section-latestArticles {
+    padding: 40px 100px;
+    height: auto;
+    background-color: rgb(243, 243, 243);
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.articleCard {
+    margin: 10px 0;
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.articleImg {
+    height: 200px;
+    background-size: cover;
+}
+
+.articleImg1 {
+    background-image: url(/images/image-currency.jpg);
+}
+
+.articleImg2 {
+    background-image: url(/images/image-restaurant.jpg);
+}
+
+.articleImg3 {
+    background-image: url(/images/image-plane.jpg);
+}
+
+.articleImg4{
+    background-image: url(/images/image-confetti.jpg);
+}
+
+.articleAuthor {
+    font-size: 10px;
+    color: hsl(0, 1%, 39%);
+    margin: 10px;
+}
+
+.articleTitle {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.articleDescription {
+    font-size: 15px;
+    color: hsl(0, 1%, 39%);
+    margin: 10px;
+}
+
+/* -- Footer ----- */
+
+
+footer {
+    
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    height: 300px;
+    align-items: center;
+    color: white;
+}
+/* ------- Footer Left ----- */
+
+.footerLeft {
+    margin-left: 100px;
+    width: 30%;
+}
+
+.socialMediaIcons {
+    font-size: 40px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.socialMediaIcons img {
+    margin: 10px;
+}
+
+
+/* ------- Footer Center ----- */
+
+
+
+.footerMenu {
+    width: 40%;
+}
+
+.footerMenu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+}
+
+.footerMenu ul li {
+    margin: 10px;
+}
+
+/* ------- Footer Right ----- */
+
+.footerContact {
+    width: 30%;
+    margin-right: 100px;
+    color: hsl(0, 0%, 68%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+/* ----------- MEDIA QUERIES ---------------*/
+
+
+@media (max-width: 980px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .headerLogo {
+    width: 30%;
+    display: flex;
+    margin-left: 50px;
+    }
+
+    header nav {
+        width: 70%;
+        justify-content: right;
+    }
+
+    .menu-icon {
+    display: block;
+    font-size: 40px;
+    cursor: pointer;
+    color: hsl(0, 1%, 39%);
+    padding-right: 50px;
+    
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: block;
+        position: absolute;
+        background-color: rgb(231, 231, 231);
+        
+        top: 130px;
+        left: 50%;
+        transform: translate(-50%);
+        border-radius: 10px;
+        width: 60%;
+        text-align: center;
+    }
+
+    .menu li {
+        margin: 25px 0;
+    }
+
+    .headerContact {
+        display: none;
+    }
+
+    /* ----------- MEDIA QUERY - Main Section---------------*/
+
+    .section-main {
+        background-color:white;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    
+    .mainLeft {
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mainLeftContainer {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    .mainLeft p {
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
+        color: hsl(0, 1%, 39%);
+    
+    }
+    
+    .mainLeft button {
+        margin-top: 20px;
+        border: solid 0px;
+        border-radius: 250px;
+        width: 150px;
+        height: 40px;
+        color: white;
+        background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    }
+    
+    .mainRight {
+        width: 100%;
+        background-image: url(/images/bg-intro-desktop.svg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: visible;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mainRight img {
+        height: 400px;
+        position: relative;
+        top: 30px;
+        right:0;
+        width: auto;
+    }
+
+    /* ----------- MEDIA QUERY - Benefit Section---------------*/
+
+
+    .section-benefits{
+        height: auto;
+
+    }
+
+    .benefitTitle {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .benefitContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefit {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* ----------- MEDIA QUERY - Latest Articles Section---------------*/
+
+    .articles {
+    display: flex;
+    flex-direction: column;
+    }
+
+    /* ----------- MEDIA QUERY - Footer Section---------------*/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footerLeft {
+        margin: 30px 0 20px;
+        width:60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerMenu {
+        width:60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerMenu ul {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerContact {
+        margin: 20px 0;
+        width:60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
