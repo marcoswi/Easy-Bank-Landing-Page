@@ -114,7 +114,7 @@ h1 {
 
 .mainRight {
     width: 60%;
-    background-image: url(/images/bg-intro-desktop.svg);
+    background-image: url(images/bg-intro-desktop.svg);
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: left;
@@ -211,19 +211,19 @@ h1 {
 }
 
 .articleImg1 {
-    background-image: url(/images/image-currency.jpg);
+    background-image: url(images/image-currency.jpg);
 }
 
 .articleImg2 {
-    background-image: url(/images/image-restaurant.jpg);
+    background-image: url(images/image-restaurant.jpg);
 }
 
 .articleImg3 {
-    background-image: url(/images/image-plane.jpg);
+    background-image: url(images/image-plane.jpg);
 }
 
 .articleImg4{
-    background-image: url(/images/image-confetti.jpg);
+    background-image: url(images/image-confetti.jpg);
 }
 
 .articleAuthor {
@@ -411,7 +411,7 @@ footer {
     
     .mainRight {
         width: 100%;
-        background-image: url(/images/bg-intro-desktop.svg);
+        background-image: url(images/bg-intro-desktop.svg);
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
